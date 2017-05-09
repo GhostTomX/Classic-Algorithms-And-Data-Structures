@@ -20,3 +20,4 @@ Atwood's Law ：Any application that can be written in JavaScript, will eventual
   - forEach
   - reverse (新增)
 
+
