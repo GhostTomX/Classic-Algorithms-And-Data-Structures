@@ -1,0 +1,42 @@
+{
+  "name": "algorithms",
+  "version": "0.10.0",
+  "description": "Traditional computer science algorithms and data structures implemented in JavaScript",
+  "main": "./index.js",
+  "scripts": {
+    "lint": "eslint src/",
+    "test": "mocha -R spec --recursive src/test"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "eslint": "^2.13.1",
+    "eslint-config-google": "^0.6.0",
+    "istanbul": "^0.4.0",
+    "mocha": "^2.3.3",
+    "pre-commit": "^1.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felipernb/algorithms.js"
+  },
+  "keywords": [
+    "computer science",
+    "cs",
+    "algorithms",
+    "data structures"
+  ],
+  "author": "Felipe Ribeiro <felipernb@gmail.com> (http://github.com/felipernb)",
+  "contributors": [
+    "GhosttomX <r04522839@ntu.edu.tw.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felipernb/algorithms.js/issues"
+  },
+  "homepage": "https://github.com/felipernb/algorithms.js/wiki"
+}
