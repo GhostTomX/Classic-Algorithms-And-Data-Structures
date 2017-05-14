@@ -11,7 +11,7 @@ Atwood's Law ：Any application that can be written in JavaScript, will eventual
 ### 数据结构
 
 - Linkedlist
-  - isempty
+  - isEmpty
   - getNode
   - add
   - get
@@ -19,5 +19,10 @@ Atwood's Law ：Any application that can be written in JavaScript, will eventual
   - delNode
   - forEach
   - reverse (新增)
+- Queue
+  - isEmpty
+  - push
+  - pop
+  - peek
 
 

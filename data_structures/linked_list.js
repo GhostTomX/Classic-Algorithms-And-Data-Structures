@@ -19,7 +19,7 @@ function LinkedList() {
  *
  * @return Boolean
  */
-LinkedList.prototype.isempty = function () {
+LinkedList.prototype.isEmpty = function () {
     return this.length === 0;
 };
 
@@ -165,14 +165,4 @@ LinkedList.prototype.reverse= function(){
     this.tail=nodeHead;
 }
 
-
-// var s = new LinkedList();
-// s.add(1);
-// s.add(2);
-// s.add(3);
-// s.add(4);
-// s.add(5);
-// console.log(s);
-// s.reverse();
-// console.log(s);
-// // console.log(s.getNode(1).value)*/
+module.exports = LinkedList;
